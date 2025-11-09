@@ -1,7 +1,9 @@
 Challenge dataset link - https://drive.google.com/drive/folders/1kR1qLW9DHkSBzBAIViX7G5hBtKVT8Uqp?usp=sharing
+
+test_predict.json file contains predictions based on the given test dataset . Result(to be announced)
 # ViT-Base Deepfake Image Detection System
 
-A comprehensive deep learning pipeline for detecting AI-generated (deepfake) images using Vision Transformer (ViT-Base) architecture. This project includes complete data preprocessing, augmentation, training, evaluation, and inference capabilities for binary classification of real vs. fake images.
+A comprehensive deep learning pipeline for detecting AI-generated (deepfake) images using the Vision Transformer (ViT-Base) architecture. This project includes complete data preprocessing, augmentation, training, evaluation, and inference capabilities for binary classification of real vs. fake images.
 
 ---
 
