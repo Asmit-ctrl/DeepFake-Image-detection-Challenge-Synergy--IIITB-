@@ -1,4 +1,4 @@
-dataset link - https://drive.google.com/drive/folders/1kR1qLW9DHkSBzBAIViX7G5hBtKVT8Uqp?usp=sharing
+Challenge dataset link - https://drive.google.com/drive/folders/1kR1qLW9DHkSBzBAIViX7G5hBtKVT8Uqp?usp=sharing
 # ViT-Base Deepfake Image Detection System
 
 A comprehensive deep learning pipeline for detecting AI-generated (deepfake) images using Vision Transformer (ViT-Base) architecture. This project includes complete data preprocessing, augmentation, training, evaluation, and inference capabilities for binary classification of real vs. fake images.
@@ -681,7 +681,7 @@ Based on training logs in the notebook with 6,632 training images:
 | **Final Validation Accuracy** | 93.57% |
 | **Training Samples** | 6,632 images |
 | **Validation Samples** | 342 images |
-| **Model Size** | ~330MB |
+| **Model Size** | ~1GB |
 | **Inference Speed** | ~69 images/second (RTX A6000) |
 | **Training Time** | ~30 minutes (20 epochs with early stopping) |
 
@@ -708,7 +708,7 @@ False Negatives (Fake→Real): 12 (7.0%)
 | ResNet-50 | 25M | ~88% | ~120 |
 | EfficientNet-B0 | 5M | ~90% | ~150 |
 | **ViT-Base (Ours)** | **86M** | **96%** | **~69** |
-| ViT-Large | 307M | ~97% | ~25 |
+| ViT-Large | ~1GB | ~97% | ~25 |
 
 **Conclusion**: ViT-Base offers best accuracy/efficiency trade-off for consumer GPUs.
 
