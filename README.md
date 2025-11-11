@@ -5,7 +5,7 @@ A compact, end-to-end pipeline for detecting AI-generated (deepfake) images usin
 ---
 
 ## Quick summary
-- Model: `google/vit-base-patch16-224` backbone + custom classifier head (≈86M params, ~330MB).  
+- Model: `google/vit-base-patch16-224` backbone + custom classifier head (≈86M params, ~1GB).  
 - Tasks: resize & preprocess images, optional deblur/sharpen, augment, train with Improved Focal Loss, evaluate, and export JSON predictions.  
 - Dataset: NOT included in repo — you must supply and organize local data (instructions below).
 
